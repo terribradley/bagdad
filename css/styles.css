@@ -1,0 +1,36 @@
+.navbar-brand img {
+  /*padding: 0;*/
+  width: 60%;
+  margin-right: 0;
+}
+.nav-collapse.collapse{
+  height: 500px;
+  margin-bottom: 5%;
+}
+h2 {
+  font-family: "Trebuchet MS",Arial,sans-serif;
+}
+.btn {
+  background-color: #da7e25;
+  color: white;
+  text-align: center;
+  min-width: 100px;
+  box-shadow: 0px 3px #834c16;
+  margin-right: 1.4%;
+  margin-bottom: 4%;
+  border-radius: 0;
+}
+.right-bottom-column p {
+  font-family: "Arvo",serif;
+  font-size: 1.3em;
+}
+.right-bottom-column .btn {
+  min-width: 150px;
+  font-family: "Arvo",serif;
+}
+.panel-body img {
+  width: 100%;
+}
+.right-top-column img {
+  width: 100%;
+}
