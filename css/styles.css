@@ -1,12 +1,14 @@
+
 .container {
   width: 100%;
+  /*height: 100vh;*/
   padding: 0;
   background-color: #3f230d;
-  color: #844e18;
+  color: white;
 }
 .container-two {
-  width: 70vw;
-  margin: 0% 15% 0 15%;
+  width: 60vw;
+  margin: 0% 120% 0 20%;
 }
 h2 {
   font-family: "Trebuchet MS",Arial,sans-serif;
@@ -22,43 +24,80 @@ h2 {
   border-radius: 0;
 }
 /*******nav******/
+.navbar-brand {
+  padding: 0;
+}
 .navbar-brand img {
-  /*padding: 0;*/
+  height: 100%;
   width: 60%;
-  margin-right: 0;
+  margin: 0;
 }
 .nav {
-  background-color: #2f1c0b;
+  background-color: #261609;
   height: 5%;
   margin-bottom: 2%;
+  color: #d37a24;
 }
+.navbar-nav a {
+  color: #d37a24;
+  font-family: "Trebuchet MS",Arial,sans-serif;
+}
+.navbar-nav li a:hover {
+  background-color: #261609;
+}
+.navbar-toggle .icon-bar {
+    background-color: #d37a24;
+  }
 /********left column******/
 .panel-body img {
-  width: 100%;
+  width: 95%;
+  /*height: 600px;*/
+  margin-left: 15px;
 }
-.left-column {
-  /*margin-right: 2%;*/
-}
+
 .left-column-panel {
-  background-color: #844e18;
+  background-color: #311c09;
   border: none;
+  height: 5%;
 }
-.right-bottom-column p {
+/********right column*******/
+.main-column-right {
+  font-family: "Trebuchet MS",Arial,sans-serif;
+}
+.right-column-one {
+  padding-right: 4%;
+}
+select {
+  margin: 7% 0 9% 0;
+}
+.right-column-two {
+  font-size: 1.2em;
+  padding-left: 4%;
+  border-left: 1px solid #474442;
+}
+.right-column-two h2 {
+  font-size: 1.6em;
+}
+.right-panel-one {
+  background-color: #3f230d;
+  border-color: #474442;
+}
+.right-panel-two {
+  text-align: center;
+  background-color: #3f230d;
+  /*rgba(63,35,13,0.4)*/
+  border-color: #474442;
+  /*opacity: .3;*/
+}
+.right-column-four p {
   font-family: "Arvo",serif;
   font-size: 1.3em;
+  font-weight: lighter;
 }
-.right-bottom-column .btn {
+.right-column-four .btn {
   min-width: 150px;
   font-family: "Arvo",serif;
 }
-/********right column*******/
-.right-panel-one {
-  background-color: #3f230d;
-}
-.right-panel-two {
-  background-color: #3f230d;
-  /*opacity: .3;*/
-}
-.right-top-column img {
+.right-column-three img {
   width: 100%;
 }
